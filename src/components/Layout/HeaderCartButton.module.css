@@ -1,0 +1,45 @@
+.button{
+    cursor: pointer;
+        font: inherit;
+        font-family: bold;
+        padding: 0 2rem;
+        width: 15rem;
+        height: 6vh ;
+        border-radius: 5rem;
+        border: none;
+        background-color: rgb(107, 148, 42);
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    
+}
+.badge{
+    background-color: rgb(68,86,38);
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-family: bold;
+    border-radius: 2rem;
+}
+.button:hover .badge,
+.button:active .badge{
+    background-color: rgb(34, 54, 2);
+}
+
+
+/* 
+#270f36	(39,15,54)
+#632b6c	(99,43,108)
+#c76b98	(199,107,152)
+#f09f9c	(240,159,156)
+#fcc3a3	(252,195,163) */
+
+/*  olive green
+Hex	RGB
+#445626	(68,86,38)
+#52682d	(82,104,45)
+#6e8b3d	(110,139,61)
+#7c9d45	(124,157,69)
+#96b85d	(150,184,93) */
+ 
