@@ -1,0 +1,13 @@
+.h1{
+text-align: center;
+color: white;
+margin: 1rem;
+
+}
+.summery{
+font: inherit;
+color: white;
+}
+.md{
+    background-color: blue;
+}
