@@ -1,21 +1,21 @@
 .meals{
-    color: white;
+    /* color: white; */
     position: relative;
-    width: 50rem; 
-    height: 15rem;
+    width: 80rem; 
+    /* height: 15rem; */
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.5);
     border-radius:1rem; 
     padding: 0rem 1rem;
     margin:0 auto;
     max-width: 95%;
-    margin-top: 10rem;
+    margin-top: 5rem;
     position: relative;
-    background-color: gray;
+    background-color: rgb(233, 221, 221);
 
 }
+
 .li{
-text-align: center;
 list-style: none;
 display: flex;
-justify-content: space-around;
+flex-direction: column;
 }

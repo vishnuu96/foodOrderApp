@@ -30,7 +30,12 @@ const DUMMY_MEALS = [
 
 const AvailableMeals = () => {
    const mealsList=DUMMY_MEALS.map((meal)=>{
-     return <li className={classes.li}>{meal.id}  {meal.name} {meal.price} {meal.description} </li>
+     return <li className={classes.li}>
+        
+        <p >{meal.name}</p> 
+        <p> {meal.price}</p> 
+        
+        </li>
     })
   return (
     <Fragment>
