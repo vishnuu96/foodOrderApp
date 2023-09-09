@@ -1,21 +1,40 @@
-.meals{
-    /* color: white; */
+/* .meals{
+    
     position: relative;
-    width: 80rem; 
-    /* height: 15rem; */
+    width: 90%; 
+   
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.5);
     border-radius:1rem; 
     padding: 0rem 1rem;
     margin:0 auto;
-    max-width: 95%;
+    max-width: 60rem;
     margin-top: 5rem;
-    position: relative;
-    background-color: rgb(233, 221, 221);
+    position: relative; 
+     background-color: rgb(233, 221, 221);
+    list-style: none;
+ }  */
 
-}
-
-.li{
-list-style: none;
-display: flex;
-flex-direction: column;
-}
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
