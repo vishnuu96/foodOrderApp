@@ -4,14 +4,13 @@ import headerImage from '../../assets/headerBanner.jpg'
 import classes from './Header.module.css'
 import HeaderCartButton from './HeaderCartButton'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <React.Fragment>
       <nav className={classes.nav}>
         <h1>ReactMeals</h1>
         <div >
-         {/* <button className={classes.cartBtn} >Your Cart</button> */}
-         <HeaderCartButton/>
+         <HeaderCartButton onClick={props.onShowCart}/>
          
         </div>
       </nav>
