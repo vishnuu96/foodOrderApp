@@ -17,7 +17,7 @@
 .form button:active{
     background-color: rgb(89, 109, 51);
 }
-.amount{
+/* .amount{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,4 +32,4 @@
     font-family: bold;
     margin: 0 0.5rem;
     border-radius: 2rem;
-}
+} */
